@@ -48,6 +48,7 @@ public class GetEmails {
         }
     }
 
+    //below three methods taken from : https://stackoverflow.com/questions/11240368/how-to-read-text-inside-body-of-mail-using-javax-mail
     private static String getTextFromMessage(Message message) throws MessagingException, IOException {
         if (message.isMimeType("text/plain")) {
             return message.getContent().toString();

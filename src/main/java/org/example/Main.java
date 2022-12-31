@@ -7,7 +7,7 @@ import javax.mail.Transport;
 
 public class Main {
     public static void main(String[] args) {
-        String to = "hunter.b.striegel@gmail.com";
+        String to = "****";
         Properties p = new Properties();
         p.put("mail.smtp.username", "marketplaceproj45@gmail.com");
         p.put("mail.smtp.password", "eblbvymahnzcdkge");
